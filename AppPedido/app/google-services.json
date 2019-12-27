@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "824815784670",
+    "firebase_url": "https://apppedido-iunin.firebaseio.com",
+    "project_id": "apppedido-iunin",
+    "storage_bucket": "apppedido-iunin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824815784670:android:39603cdf7811c6903a284f",
+        "android_client_info": {
+          "package_name": "br.com.apppedido"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824815784670-lfsokm78pobech76e7ld9v3mmek216bi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.apppedido",
+            "certificate_hash": "3499f5a10314c659ba221b3695a4ccd48109d9a5"
+          }
+        },
+        {
+          "client_id": "824815784670-0ier6gnj3l964mun2qg8o59c5sd1spp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxa79hYVFhRqiY_lq0pRSd27vqQsET7PM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824815784670-0ier6gnj3l964mun2qg8o59c5sd1spp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

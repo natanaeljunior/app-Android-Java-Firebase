@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarPed"
+            android:layout_width="match_parent"
+
+            android:layout_height="?attr/actionBarSize"
+            android:background="#032C50"
+            app:navigationIcon="@drawable/left"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Pedidos"
+
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout3"
+            android:layout_width="408dp"
+            android:layout_height="70dp">
+
+            <EditText
+                android:id="@+id/etextped"
+                android:layout_width="364dp"
+                android:layout_height="46dp"
+                android:layout_alignParentTop="true"
+                android:drawableLeft="@drawable/ic_search"
+                android:hint="Pesquisar"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="610dp">
+
+            <com.baoyz.swipemenulistview.SwipeMenuListView
+                android:id="@+id/listViewPed"
+                android:layout_width="395dp"
+                android:layout_height="594dp"
+                android:layout_marginTop="55dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatButtonPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/appBar"
+        android:clickable="true"
+        app:backgroundTint="@color/appBar"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="end|bottom"
+        app:maxImageSize="60dp"
+        app:srcCompat="@drawable/add" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

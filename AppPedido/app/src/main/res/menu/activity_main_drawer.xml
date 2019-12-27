@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/op_inicio"
+            android:icon="@drawable/icon_home"
+            android:title="Início" />
+        <item
+            android:id="@+id/op_pedidos"
+            android:icon="@drawable/icon_pedidos"
+            android:title="Pedidos" />
+        <item
+            android:id="@+id/op_clientes"
+            android:icon="@drawable/icon_clientes"
+            android:title="Clientes" />
+        <item
+            android:id="@+id/op_prod_esto"
+            android:icon="@drawable/icon_estoque_produto"
+            android:title="Produtos / Estoque" />
+        <item
+            android:id="@+id/op_pagamento"
+            android:icon="@drawable/icon_pag"
+            android:title="Pagamentos" />
+        <item
+            android:id="@+id/op_relatorio"
+            android:icon="@drawable/icon_relatorio"
+            android:title="Relatórios" />
+        <item
+            android:id="@+id/op_config"
+            android:icon="@drawable/icon_config"
+            android:title="Configurações" />
+        <item
+            android:id="@+id/op_sair"
+            android:icon="@drawable/icon_sair"
+            android:title="Sair" />
+    </group>
+
+</menu>
